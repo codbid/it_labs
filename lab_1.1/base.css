@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+body { 
+    margin-bottom: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.history-case {
+    width: 600px;
+    background-color: rgb(104, 104, 103);
+    padding-left: 5em;
+    padding-right: 2em;
+    padding-bottom: 1pt;
+}
+.author {
+    text-align: right;
+}
+
+.disk {
+    list-style-type: disc;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.names {
+    text-align: right;
+}
+
+.text {
+    background-color: white;
+    margin-top: 0;
+    border-right: 5px double #2304d4;
+}
+.header {
+    margin-left: 110px;
+    color: #0a0236;
+    font-size: 30;
+    font-family: Arial;
+    margin-bottom: 0;
+}
+
+.header-shadow {
+    color: #1a01a8;
+    margin-left: 111px;
+    font-size: 30;
+    font-family: Arial;
+    margin-bottom: 0;
+    margin-top: -33;
+}

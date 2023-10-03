@@ -1,0 +1,89 @@
+p{
+	text-align: center;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.group{
+	text-align: left;
+
+}
+.brig{
+	text-align: right;
+}
+
+.fio{
+	text-align: right;
+	line-height: 0.9;
+}
+
+.pushkin{
+/*	display: inline-block;*/
+	padding: 50px;
+	/*width: 300px;*/
+}
+
+.actor{
+	text-align: right;
+}
+
+.history{
+	background-color: grey;
+	height:200px;
+	width:1000px;
+	margin: 0 auto;
+}
+.text1{
+	text-align: center;
+	color: black;
+}
+.text2{
+	text-align: center;
+	color: blue;
+	margin: -48px 4px 0px 0px
+}
+.ptext{
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	width:800px;
+	border-right: 5px double blue;
+}
+body {
+  margin: 0;
+  background: #F4F1F8;
+}
+table {
+  border-collapse: collapse; 
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+  color: #0C213B;
+}
+caption {
+  font-family: annabelle, cursive;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10px; 
+  color: grey;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+ }
+caption:before, caption:after {
+  color: grey;
+  margin: 0 10px;
+}
+th {
+  padding: 10px; 
+  border: 1px solid #A9E2CC;
+}
+td {
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #A9E2CC;
+}
+.first {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+	
