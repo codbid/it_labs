@@ -1,0 +1,972 @@
+body {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+}
+
+.header-text {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-description {
+    position: absolute;
+    color: #8C8181;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-img {
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.contact-us-button{
+    display: flex;
+    position: absolute;
+    background: #DAD104;
+    box-shadow: 0px 6.29114px 6.29114px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.contact-us-button-text {
+    position: absolute;
+    color: #000;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.polygon-1 {
+    position: absolute;
+    z-index: 0;
+}
+
+.subtitle-text {
+    color: #FFF;
+    line-height: normal;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+    margin: 0 auto;
+}
+
+.we-offers {
+    margin:0 auto;
+}
+
+.offers-rectangle {                                                                                                                                                                                                                                         
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #261A3F;
+}
+
+.offers-images {
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-text {
+    position: absolute;
+    text-align: center;
+    color: #7F7479;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.advantages-list-text {
+    color: #7F7479;
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.horizontal-place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smooth-rectangle-packages {
+    background: #201536;
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.lightblue-header-text {
+    color: #ADE6FB;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+
+.invisible-container-packages {
+    z-index: 1;
+}
+
+.service-packages-list-text {
+    color: #796E75;
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.price-amount-text {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-weight: 500;
+    text-align: right;
+}
+
+.portfolio {
+
+}
+
+.about-scale {
+        
+}
+
+.about-scale-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smooth-rectangle-about-scale {
+    background: #201536;
+    filter: blur(10px);
+    z-index: 0;
+    margin: 0 auto;
+}
+
+.invisible-container-about-scale {
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.about-scale-text {
+    color: #857A7D;
+    font-family: Ubuntu;
+    font-weight: 300;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feedback-subtitle-text {
+    color: #FFF;
+    text-align: center;
+}
+
+.feedback-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-field {
+    background-color: #201536;
+    border: 1px solid #000;
+    text-align: center;
+    box-shadow: 0px 6.29114px 6.29114px 0px rgba(0, 0, 0, 0.25);
+    color: #7F7479;
+}
+
+.button-place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-button {
+    background: #DAD104;
+    box-shadow: 0px 6.29114px 6.29114px 0px rgba(0, 0, 0, 0.25);
+}
+
+.feedback-button-text {
+    color: #000;
+    font-family: Ubuntu;
+    font-weight: 500;
+    text-align: center;
+}
+
+.our-office {
+    text-align: center;
+}
+
+.map-img {
+    width: 90%;
+}
+
+.down-navbar {
+    background: #201536;
+    width: 100%;
+    overflow: hidden;
+}
+
+.down-navbar-social-networks-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1201px) {
+    body {
+        max-width: 1920px;
+        min-width: 1200px;
+    }
+    
+    .header {
+        width: 1400px;
+        padding-left: 70px;
+    }
+    
+    .header-text {
+        width: 600px;
+        font-size: 72px;
+    }
+    
+    .header-description {
+        margin-top: 320px;
+        width: 500px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .header-img {
+        width: 900px;
+        height: 900px;
+        margin-top: -100px;
+        margin-left: 120px;
+    }
+    
+    .contact-us-button{
+        margin-top: 480px;
+        border-radius: 20.446px;
+        width: 300px;
+        height: 100px;
+    }
+    
+    .contact-us-button-text {
+        margin-left: 45px;
+        font-size: 25.165px;
+    }
+    
+    .polygon-1 {
+        margin-left: 250px;
+        margin-top: 200px;
+    }
+    
+    .subtitle-text {
+        font: 700 62.911px Ubuntu, sans-serif;
+    }
+    
+    .offers-rectangle {                                                                                                                                                                                                                                     
+        width: 1460px;
+        margin-left: 190px;
+    }
+
+    .offers-images {
+        margin-left: 120px;
+        margin-top: -350px;
+        width: 1400px;
+    }
+
+    .mobile-apps-img, 
+    .sites-img,
+    .all-solutions-img,
+    .social-networks-img{
+        width: 230px;
+    }
+    
+    .offers-text {
+        font-size: 22px;
+        margin-top: -20px;
+    }
+    
+    .offers-text1 {
+        width: 135px;
+        margin-left: 150px;
+    }
+    
+    .offers-text2 {
+        margin-top: -1px;
+        margin-left: 600px;
+    }
+    
+    .offers-text3 {
+        width: 159px;
+        margin-left: 935px;
+    }
+    
+    .offers-text4 {
+        width: 195px;
+        margin-left: 1330px;
+    }
+    
+    .advantages {
+        padding-right: 250px;
+        padding-top: 150px;
+    }
+    
+    .advantages-img {
+        width: 1155px;
+        height: 795px;
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+    
+    .advantages-list {
+        margin-left: 1000px;
+        margin-top: -600px;
+    }
+    
+    .advantages-list-text {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    
+    .service-packages {
+        margin-top: 200px;
+    }
+    
+    .horizontal-place {
+        padding-top: 50px;
+        padding-inline: 100px;
+    }
+    
+    .smooth-rectangle-packages {
+        width: 400px;
+        height: 430px;
+    }
+    
+    .lightblue-header-text {
+        font-size: 58px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    
+    .invisible-container-packages {
+        margin-top: -540px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 380px;
+        height: 410px;
+    }
+    
+    .service-packages-list-text {
+        font-size: 31.456px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+    
+    .price-amount-text {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+    
+    .portfolio-images {
+        width: 250;
+        height: 250;
+        margin-right: 40px;
+    }
+    
+    .about-scale {
+        
+    }
+    
+    .smooth-rectangle-about-scale {
+        width: 1500px;
+        height: 200px;
+    }
+    
+    .invisible-container-about-scale {
+        width: 1450px;
+        height: 200px;
+        margin-top: -210px;
+    }
+    
+    .about-scale-text {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .feedback {
+        margin-top: 200px;
+    }
+    
+    .feedback-subtitle-text {
+        font: 700 37.747px Ubuntu, sans-serif;
+    }
+    
+    .feedback-form {
+        padding-top: 50px;
+        margin-inline: 450px;
+    }
+    
+    .feedback-field {
+        font: 30 32px Ubuntu, sans-serif;
+        width: 450px;
+        margin-inline: 50px;
+    }
+    
+    .button-place {
+        margin-top: 50px;
+        margin-inline: 500px;
+    }
+    
+    .feedback-button {
+        border-radius: 20px;
+        width: 300px;
+        height: 100px;
+    }
+    
+    .feedback-button-text {
+        font-size: 25px;
+    }
+    
+    .captcha {
+        width: 500px;
+        margin-inline: 220px;
+        margin-right: 0;
+        border-radius: 11px;
+    }
+    
+    .our-office {
+        margin-top: 100px;
+    }
+    
+    .map-img {
+        
+    }
+    
+    .down-navbar {
+        margin-top: 200px;
+        height: 200px;
+    }
+    
+    .down-navbar-social-networks-box {
+        width: 1000px;
+    }
+    
+    .down-navbar-social-networks-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    body {
+        max-width: 1200px;
+        min-width: 769px;
+    }
+    
+    .header {
+        padding-left: 5em;
+    }
+    
+    .header-text {
+        width: 400px;
+        font-size: 40px;
+    }
+    
+    .header-description {
+        margin-top: 180px;
+        width: 400px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .header-img {
+        height: 500px;
+    }
+    
+    .contact-us-button{
+        margin-top: 300px;
+        border-radius: 20px;
+        background: #4404da;
+        box-shadow: 0px 6.29114px 6.29114px 0px rgba(0, 0, 0, 0.25);
+        width: 250px;
+        height: 75px;
+    }
+    
+    .contact-us-button-text {
+        margin-left: 35px;
+        font-size: 1.5em;
+    }
+    
+    .polygon-1 {
+        width: 400px;
+        margin-top: 120px;
+    }
+    
+    .subtitle-text {
+        font: 700 2.5em Ubuntu, sans-serif;
+    }
+
+    .offers-rectangle {
+        margin-left: 75px;
+        margin-top: -95px;
+        width: 900px;
+        padding: 1vw;
+    }    
+    
+    .offers-images {
+        margin-top: -290px;
+        width: 835px;
+    }
+
+    .mobile-apps-img, 
+    .sites-img,
+    .all-solutions-img,
+    .social-networks-img{
+        /*width: 15vw;
+        margin-inline: 3.2vw;*/
+        width: 150px;
+    }
+    
+    .offers-text {
+        font-size: 0.7em;
+    }
+    
+    .offers-text1 {
+        width: 135px;
+    }
+    
+    .offers-text2 {
+        margin-top: 20px;
+        margin-left: 290px;
+    }
+    
+    .offers-text3 {
+        width: 90px;
+        margin-left: 485px;
+    }
+    
+    .offers-text4 {
+        width: 100px;
+        margin-left: 715px;
+    }
+    
+    .advantages {
+      margin-top: 100px;
+    }
+    
+    .advantages-img {
+        width: 40vw;
+        margin-top: -100px;
+    }
+    
+    .advantages-list {
+        margin-left: 40vw;
+        margin-top: -17vw;
+    }
+    
+    .advantages-list-text {
+        font-size: 1em;
+        margin-bottom: 2%;
+    }
+    
+    .service-packages {
+        margin-top: 50px; 
+    }
+
+    .horizontal-place {
+        padding: 20px 10vw;
+    }
+
+    .smooth-rectangle-packages {
+        width: 200px;
+        height: 300px;
+        filter: blur(10.86391544342041px);
+        margin: 0 20px;
+    }
+
+    .lightblue-header-text {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+
+    .invisible-container-packages {
+        width: 380px;
+        height: 300px;
+        margin: -380px 20px 0 50px;
+    }
+
+    .service-packages-list-text {
+        font-size: 15px;
+        margin-bottom: 3vw;
+    }
+
+    .price-amount-text {
+        font-size: 1.5em;
+        margin-top: 10vw;
+    }
+
+    .portfolio-images {
+        width: 200px;
+        margin-right: 3vw;
+    }
+    
+    .smooth-rectangle-about-scale {
+        width: 95%;
+        height: 19vw;
+    }
+    
+    .invisible-container-about-scale {
+        width: 90%;
+        height: 140px;
+        margin-top: -215px;
+    }
+    
+    .about-scale-text {
+        height: 140px;
+        font-size: 1em;
+        line-height: 40px;
+    }
+    
+    .feedback {
+        margin-top: 100px;
+    }
+    
+    .feedback-subtitle-text {
+        font: 700 30px Ubuntu, sans-serif;
+    }
+    
+    .feedback-form {
+        padding-top: 50px;
+        margin-inline: 450px;
+    }
+    
+    .feedback-field {
+        font: 300 24px Ubuntu, sans-serif;
+        width: 250px;
+        margin-inline: 30px;
+    }
+    
+    .button-place {
+        margin-top: 50px;
+        margin-inline: 500px;
+    }
+    
+    .feedback-button {
+        border-radius: 20px;
+        width: 200px;
+        height: 75px;
+    }
+    
+    .feedback-button-text {
+        font-size: 20px;
+    }
+    
+    .captcha {
+        width: 300px;
+        margin-inline: 70px;
+        margin-right: 0;
+        border-radius: 11px;
+    }
+    
+    .our-office {
+        margin-top: 100px;
+    }
+    
+    .down-navbar {
+        margin-top: 200px;
+    }
+    
+    .down-navbar-social-networks-box {
+        width: 600px;
+    }
+    
+    .down-navbar-social-networks-img {
+        margin-inline: 10px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+    
+    .header {
+        padding-left: 70px;
+    }
+    
+    .header-text {
+        width: 200px;
+        font-size: 1.5em;
+    }
+    
+    .header-description {
+        margin-top: 110px;
+        width: 225px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+    
+    .header-img {
+        width: 300px;
+        margin-top: -10px;
+        margin-left: 80px;
+    }
+    
+    .contact-us-button{
+        margin-top: 180px;
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+    }
+    
+    .contact-us-button-text {
+        margin-left: 16px;
+        font-size: 12px;
+    }
+    
+    .polygon-1 {
+        width: 240px;
+        margin-left: 80px;
+        margin-top: 62px;
+    }
+    
+    .subtitle-text {
+        font: 700 22px Ubuntu, sans-serif;
+    }
+    
+    .offers-rectangle {                                                                                                                                                                                                                                     
+        width: 600px;
+        margin-left: 70px;
+        margin-top: -100px;
+    }
+
+    .offers-images {
+        margin-left: 10px;
+        margin-top: -285px;
+        width: 570px;
+    }
+
+    .mobile-apps-img, 
+    .sites-img,
+    .all-solutions-img,
+    .social-networks-img{
+        width: 95px;
+    }
+    
+    .offers-text {
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    
+    .offers-text1 {
+        margin-left: 25px;
+        width: 55px;
+    }
+    
+    .offers-text2 {
+        margin-top: 9px;
+        margin-left: 200px;
+    }
+    
+    .offers-text3 {
+        width: 65px;
+        margin-left: 340px;
+    }
+    
+    .offers-text4 {
+        width: 80px;
+        margin-left: 500px;
+    }
+    
+    .advantages {
+        padding-right: 150px;
+        padding-top: 50px;
+    }
+    
+    .advantages-img {
+        width: 235px;
+        height: 162px;
+        margin-top: 0px;
+        margin-left: 80px;
+    }
+    
+    .advantages-list {
+        margin-left: 320px;
+        margin-top: -130px;
+    }
+    
+    .advantages-list-text {
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    
+    .service-packages {
+        margin-top: 100px;
+    }
+    
+    .horizontal-place {
+        padding-top: 50px;
+        padding-inline: 10vw;
+    }
+    
+    .smooth-rectangle-packages {
+        filter: blur(5px);
+        width: 100px;
+        height: 120px;
+    }
+    
+    .lightblue-header-text {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    
+    .invisible-container-packages {
+        margin-top: -230px;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .service-packages-list-text {
+        font-size: 8px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        margin-left: -19px;
+    }
+    
+    .price-amount-text {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    
+    
+    .portfolio-images {
+        margin-top: -20px;
+        width: 100px;
+        height: 100px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .about-scale {
+        
+    }
+    
+    .smooth-rectangle-about-scale {
+        filter: blur(5px);
+        width: 615px;
+        height: 82px;
+    }
+    
+    .invisible-container-about-scale {
+        width: 600px;
+        height: 82px;
+        margin-top: -90px;
+    }
+    
+    .about-scale-text {
+        font-size: 8px;
+        line-height: 25px;
+    }
+    
+    .feedback {
+        margin-top: 50px;
+    }
+    
+    .feedback-subtitle-text {
+        font: 700 15px Ubuntu, sans-serif;
+    }
+    
+    .feedback-form {
+        padding-top: 50px;
+        margin-inline: 450px;
+    }
+    
+    .feedback-field {
+        font: 30 12px Ubuntu, sans-serif;
+        width: 185px;
+        margin-inline: 50px;
+    }
+    
+    .button-place {
+        margin-top: 50px;
+        margin-inline: 500px;
+    }
+    
+    .feedback-button {
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+    }
+    
+    .feedback-button-text {
+        font-size: 12px;
+    }
+    
+    .captcha {
+        width: 205px;
+        margin-inline: 130px;
+        margin-right: 0;
+        border-radius: 11px;
+    }
+    
+    .our-office {
+        margin-top: 50px;
+    }
+    
+    .map-img {
+        
+    }
+    
+    .down-navbar {
+        margin-top: 50px;
+        height: 50px;
+    }
+    
+    .down-navbar-social-networks-box {
+        width: 300px;
+    }
+    
+    .down-navbar-social-networks-img {
+        width: 42px;
+        height: 42px;
+    }
+}
