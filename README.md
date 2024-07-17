@@ -27,7 +27,6 @@
   
   Либо через Docker compose:
   <pre>
-  ```cmd
   docker-compose build
   docker-compose up
   </pre>
@@ -36,6 +35,7 @@
 3. Примеры запросов к api:
 
    Запрос для добавления файла -  
+   <pre>
    POST /testcase  
    Host: localhost  
    Content-Type: application/json  
@@ -45,19 +45,23 @@
      "title": "New file",  
      "description": "File description"  
    }  
-  
+   </pre>
    Ожидаемый результат -  
+   <pre>
    HTTP/1.1 201 Created  
    Content-Type: application/json  
   
    11  
-  
+   </pre>
   
    Запрос для получения файла по id -  
+   <pre>
    GET /testcase?id=11  
    Host: localhost  
-  
+   </pre>
+     
    Ожидаемый результат -  
+   <pre>
    HTTP/1.1 200 OK  
    Content-Type: application/json  
   
@@ -67,7 +71,7 @@
      "creation_date": "2024-07-17T12:00:00Z",  
      "description": "File description"  
    }  
-
+   </pre>
 
 
    
