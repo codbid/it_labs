@@ -20,3 +20,7 @@ java -jar target/testcase-0.0.1-SNAPSHOT.jar
 docker-compose build
 docker-compose up
 </pre>
+
+```http
+GET /api/file/123 HTTP/1.1
+Host: example.com
