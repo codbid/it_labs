@@ -48,7 +48,7 @@
    </pre>
    Ожидаемый результат -  
    <pre>
-   HTTP/1.1 201 Created  
+   201 Created  
    Content-Type: application/json  
   
    11  
@@ -62,7 +62,7 @@
      
    Ожидаемый результат -  
    <pre>
-   HTTP/1.1 200 OK  
+   200 OK  
    Content-Type: application/json  
   
    {  
