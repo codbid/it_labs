@@ -14,97 +14,60 @@
 
 2. Для начала необходимо указать данные для доступа к базе данных в файле application.properties, при запуске через Docker в файле compose.yaml можно при желании поменять данные для базы данных внутри контейнеров.
 
-Для запуска прилоложения нужно сначала собрать его:
-<pre>
-mvn clean package
-</pre>
-В случае если проект планируется запускать через Docker или база данных ещё не подключена, следует также добавить ключ -DskipTests, т.к. тест не пройдёт на этапе инициализации несуществующей базы данных.
-
-Далее запустить jar файл:
-<pre>
-java -jar target/testcase-0.0.1-SNAPSHOT.jar
-</pre>
-
-Либо через Docker compose:
-<pre>
-```cmd
-docker-compose build
-docker-compose up
-</pre>
+  Для запуска прилоложения нужно сначала собрать его:
+  <pre>
+  mvn clean package
+  </pre>
+  В случае если проект планируется запускать через Docker или база данных ещё не подключена, следует также добавить ключ -DskipTests, т.к. тест не пройдёт на этапе инициализации несуществующей базы данных.
+  
+  Далее запустить jar файл:
+  <pre>
+  java -jar target/testcase-0.0.1-SNAPSHOT.jar
+  </pre>
+  
+  Либо через Docker compose:
+  <pre>
+  ```cmd
+  docker-compose build
+  docker-compose up
+  </pre>
 
 
 3. Примеры запросов к api:
 
-   Запрос для добавления файла -
-   POST /testcase
-   Host: localhost
-   Content-Type: application/json
-
-   {
-     "file": "<base64-encoded file>",
-     "title": "New file",
-     "description": "File description"
-   }
-
-   Ожидаемый результат -
-   HTTP/1.1 201 Created
-   Content-Type: application/json
-
-   11
-
-
-   Запрос для получения файла по id -
-   GET /testcase?id=11
-   Host: localhost
-
-   Ожидаемый результат -
-   HTTP/1.1 200 OK
-   Content-Type: application/json
-
-   {
-     "file": "<base64-encoded file>",
-     "title": "New file",
-     "creation_date": "2024-07-17T12:00:00Z",
-     "description": "File description"
-   }
+   Запрос для добавления файла -  
+   POST /testcase  
+   Host: localhost  
+   Content-Type: application/json  
+  
+   {  
+     "file": "<base64-encoded file>",  
+     "title": "New file",  
+     "description": "File description"  
+   }  
+  
+   Ожидаемый результат -  
+   HTTP/1.1 201 Created  
+   Content-Type: application/json  
+  
+   11  
+  
+  
+   Запрос для получения файла по id -  
+   GET /testcase?id=11  
+   Host: localhost  
+  
+   Ожидаемый результат -  
+   HTTP/1.1 200 OK  
+   Content-Type: application/json  
+  
+   {  
+     "file": "<base64-encoded file>",  
+     "title": "New file",  
+     "creation_date": "2024-07-17T12:00:00Z",  
+     "description": "File description"  
+   }  
 
 
 
    
-
-
-
-<- Test
-
-## Test
-
-> Test 123
-
-Для запуска прилоложения нужно сначала собрать его:
-<pre>
-mvn clean package
-</pre>
-В случае если проект планируется запускать через Docker или база данных ещё не подключена, следует также добавить ключ -DskipTests, т.к. тест не пройдёт на этапе инициализации несуществующей базы данных.
-
-Далее запустить jar файл:
-<pre>
-java -jar target/testcase-0.0.1-SNAPSHOT.jar
-</pre>
-
-Либо через Docker compose:
-<pre>
-docker-compose build
-docker-compose up
-</pre>
-
-    ```cmd
-    docker-compose build
-    docker-compose up
-
-ffff
-
-```cmd
-GET /api/file/123 HTTP/1.1
-Host: example.com
-
-
